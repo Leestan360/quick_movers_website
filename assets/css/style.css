@@ -1,0 +1,18 @@
+.sectOne {
+    background-image: url("../images/moving 1.png");
+    background-size:cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav {
+    text-align: right;
+    padding: 40px;
+    margin-right: 150px;
+}
+
+div > nav > .navbar > ul > li {
+    display: inline-block;
+    color: white;
+    margin-left: 50px;
+}
