@@ -16,3 +16,16 @@ div > nav > .navbar > ul > li {
     color: white;
     margin-left: 50px;
 }
+
+#one {
+    background-color: #FFAC12;
+    color: black;
+    border: 1px solid #FFAC12;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-right: -20px;
+    margin-left: -20px;
+}
