@@ -42,3 +42,18 @@ div > nav > .navbar > ul > li {
     font-size: 15px;
     font-family: 'Poppins',  'Actor', 'Adamina';
 }
+
+.sectOne > .change > #task {
+    color: #FAFF00;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    margin-left: 100px;
+    font-size: 68px;
+}
+
+.change > #roof {
+    color: white;
+    margin-left: 100px;
+    font-size: 35px;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    padding-bottom: 270px;
+}
