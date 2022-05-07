@@ -59,3 +59,11 @@ div > nav > .navbar > ul > li {
     font-family: 'Poppins', 'Actor', 'Adamina';
     padding-bottom: 270px;
 }
+
+.sectTwo {
+    margin-top: 50px;
+}
+
+.sectTwo > .cut > img {
+    width: 45%;
+}
