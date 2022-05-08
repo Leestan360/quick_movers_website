@@ -272,3 +272,55 @@ nav > .navbar-1 > ul > li {
     height: 50%;
 }
 
+.tap {
+    background-color: black;
+    margin-top: -20px;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    padding: 40px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+}
+
+.tap > h2 {
+    color: white;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    border-bottom: 1px solid lightcyan;
+    padding-bottom: 30px;
+    width: 90%;
+}
+
+.tap > h2 > #move {
+    color: #FAFF00;
+}
+
+.tap > .icons {
+    color: white;
+    margin-top: 120px;
+}
+
+.tap > .icons > #f {
+    margin-right: 20px;
+}
+
+.tap > .icons > #t {
+    margin-right: 20px;
+}
+
+.tap > .icons > #g {
+    margin-right: 20px;
+}
+
+.footer-1 {
+    margin-top: -100px;
+    margin-left: 300px;
+}
+
+.footer-2 {
+    margin-top: -178px;
+    margin-left: 600px;
+}
+
+.footer-3 {
+    margin-top: -178px;
+    margin-left: 900px;
+}
