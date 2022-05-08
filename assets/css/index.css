@@ -27,4 +27,38 @@ nav > .navbar-1 > ul > li {
     padding-left: 20px;
     border: 1px solid #FFAC13;
     border-radius: 0px 14px 0px 0px;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+}
+
+.brooklyn {
+    background-color: black;
+    margin-top: -20px; 
+    color: white;
+    padding-bottom: 25px;
+}
+
+.brooklyn > h2 {
+    padding-top: 30px;
+    margin-left: 100px;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+}
+
+.brooklyn > p {
+    margin-left: 100px;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+}
+
+.dollar {
+    margin-top: -124px;
+    margin-left: 1114px;
+    color: white;
+}
+
+.property {
+    background-color: lightgrey;
+}
+.property > img {
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 50%;
 }
