@@ -1,8 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .sectOne {
     background-image: url("../images/moving 1.png");
     background-size:cover;
     background-repeat: no-repeat;
-    max-height: 100%;
+    height: 100%;
+    overflow: hidden;
     box-shadow: 10px 0px 0px black;
     border: 1px solid black;
 }
@@ -62,8 +68,36 @@ div > nav > .navbar > ul > li {
 
 .sectTwo {
     margin-top: 50px;
+    display: flex;
 }
 
 .sectTwo > .cut > img {
     width: 45%;
+}
+
+
+.sectTwo > .hustle {
+    margin-top: 200px;
+    margin-right: 10px;
+    margin-left: -660px;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+}
+
+.hustle > h2 {
+    font-size: 30px;
+}
+
+.current {
+    color: gray;
+    margin-top: -15px;
+    margin-bottom: 40px;
+}
+
+#three {
+    background-color: black;
+    color: #FAFF00;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
