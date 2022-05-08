@@ -230,3 +230,45 @@ nav > .navbar-1 > ul > li {
     justify-content: space-between;
     margin-bottom: 10px;
 }
+
+
+.top {
+    background-color: lightgray;
+    padding: 130px;
+}
+
+.top > h2 {
+    margin-bottom: 100px;
+    font-size: 30px;
+    margin-left: -20px;
+    font-weight: lighter;
+    font-family: 'Poppins', 'Actor', 'Adamina;'
+}
+
+
+
+.top > .a-movers > #img-1 {
+    width: 23%;
+    margin-right: 30px;
+    margin-bottom: 150px;
+    margin-left: -20px;
+    border-bottom: 2px solid lightgray;
+}
+
+.top > .a-movers > #img-2 {
+    width: 23%;
+    margin-right: 30px;
+    margin-bottom: 150px;
+}
+.top > .a-movers > #img-3 {
+    width: 23%;
+    margin-bottom: 150px;
+}
+.top > .a-movers > #img-4 {
+    width: 25%;
+    margin-right: -130px;
+    margin-left: 20px;
+    padding-left: 122px;
+    height: 50%;
+}
+
