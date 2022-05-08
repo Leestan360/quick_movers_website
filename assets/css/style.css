@@ -101,3 +101,14 @@ div > nav > .navbar > ul > li {
     padding-bottom: 10px;
     padding-left: 20px;
 }
+
+.top {
+    background-color: lightgray;
+    margin-top: 10px;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+.top > h2 {
+    padding-bottom: 150px;
+}
