@@ -291,6 +291,19 @@ nav > .navbar-1 > ul > li {
 
 .tap > h2 > #move {
     color: #FAFF00;
+    margin-left: 40px;
+}
+
+#us {
+    background-color: #FFAC13;
+    padding-top: 6px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    border: 1px solid #FFAC13;
+    border-radius: 0px 14px 0px 0px;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    margin-left: 604px;
 }
 
 .tap > .icons {
