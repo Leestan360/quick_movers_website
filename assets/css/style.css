@@ -148,3 +148,45 @@ nav > .navbar > ul > li {
 .top > .a-movers > #img-6 {
     width: 30%;
 }
+
+
+
+
+
+
+.tap {
+    background-color: black;
+    margin-top: -20px;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    padding: 40px;
+    padding-left: 150px;
+}
+
+.tap > h2 {
+    color: white;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+    width: 90%;
+}
+
+.tap > h2 > #move {
+    color: #FAFF00;
+}
+
+.tap > .icons {
+    color: white;
+    margin-top: 120px;
+}
+
+.tap > .icons > #f {
+    margin-right: 20px;
+}
+
+.tap > .icons > #t {
+    margin-right: 20px;
+}
+
+.tap > .icons > #g {
+    margin-right: 20px;
+}
