@@ -134,3 +134,13 @@ nav > .navbar-1 > ul > li {
     color:#FFAC13;
     margin-top: -15px;
 }
+
+.bottom {
+    margin-left: 100px;
+    width: 50%;
+}
+
+.bottom > img {
+    margin: 6px;
+    width: 12%;
+}
