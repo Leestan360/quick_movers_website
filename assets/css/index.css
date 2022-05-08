@@ -55,10 +55,82 @@ nav > .navbar-1 > ul > li {
 }
 
 .property {
-    background-color: lightgrey;
+    background-color: lightgray;
+    padding-bottom: 30px;
 }
+
 .property > img {
     margin-top: 70px;
     margin-left: 100px;
     width: 50%;
+}
+
+.profile {
+    background-color: white;
+    margin-top: -500px;
+    margin-bottom: 20px;
+    margin-left: 820px;
+    padding-bottom: 20px;
+    border: 1px solid lightgrey;
+    margin-right: 230px;
+    border-radius: 20px;
+}
+
+.name {
+    border: 1px solid grey;
+    margin: 15px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    background-color: lightgray;
+}
+
+#one {
+    border: 1px solid grey;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#two {
+    border: 1px solid grey;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#three {
+    border: 1px solid grey;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#four {
+    border: 1px solid grey;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    padding-bottom: 35px;
+}
+
+.more {
+    padding-right: 122px;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: -10px;
+    padding-left: 40px;
+    font-size: 20px;
+    border-radius: 0px 15px 0px 0px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+#dp {
+    color:#FFAC13;
+    margin-top: -15px;
 }
