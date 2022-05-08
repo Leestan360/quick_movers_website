@@ -29,6 +29,10 @@ nav > .navbar > ul > li {
     padding: 20px;
 }
 
+nav > .navbar > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
 #one {
     background-color: #FFAC13;
     border: 1px solid #FFAC13;
