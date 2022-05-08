@@ -150,11 +150,6 @@ nav > .navbar > ul > li {
     width: 30%;
 }
 
-
-
-
-
-
 .tap {
     background-color: black;
     margin-top: -20px;
@@ -167,7 +162,7 @@ nav > .navbar > ul > li {
 .tap > h2 {
     color: white;
     font-family: 'Poppins', 'Actor', 'Adamina';
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid lightcyan;
     padding-bottom: 30px;
     width: 90%;
 }

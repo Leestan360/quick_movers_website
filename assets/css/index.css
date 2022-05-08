@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-right: 150px;
+    font-size: 18px;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    border-bottom: 1px solid lightcyan;
+}
+
+nav > .navbar-1 > ul > li {
+    display: inline-block;
+    padding: 20px;
+}
+
+#work {
+    background-color: #FFAC13;
+    padding-top: 6px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    border: 1px solid #FFAC13;
+    border-radius: 0px 14px 0px 0px;
+}
