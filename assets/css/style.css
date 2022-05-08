@@ -3,112 +3,148 @@ body {
     padding: 0;
 }
 
-.sectOne {
+body > .sectOne {
     background-image: url("../images/moving 1.png");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
-    overflow: hidden;
-    box-shadow: 10px 0px 0px black;
-    border: 1px solid black;
+    background-position: cover cover;
+    padding-top: 5px;
+    padding-bottom: 468px;
+    height: 50vh;
+    margin-bottom: 50px;
+    border-right: 14px solid black;
 }
 
 nav {
     text-align: right;
-    padding: 40px;
-    margin-right: 150px;
+    color: white;
+    padding-top: 40px;
+    padding-right: 150px;
+    font-size: 18px;
+    font-family: 'Poppins', 'Actor', 'Adamina';
 }
 
-div > nav > .navbar > ul > li {
+nav > .navbar > ul > li {
     display: inline-block;
-    color: white;
-    margin-left: 50px;
+    padding: 20px;
 }
 
 #one {
-    background-color: #FFAC12;
-    color: black;
-    border: 1px solid #FFAC12;
-    padding-top: 1px;
+    background-color: #FFAC13;
+    border: 1px solid #FFAC13;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    padding-top: 3px;
     padding-right: 10px;
-    padding-bottom: 1px;
-    padding-left: 15px;
-    font-size: 15px;
-    margin-right: -25px;
-    margin-left: -23px;
-    font-family: 'Poppins',  'Actor', 'Adamina';
+    padding-left: 14px;
+    font-size: 14px;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 #two {
     background-color: black;
-    color: #FAFF00;
     border: 1px solid black;
-    padding-top: 1px;
-    padding-right: 15px;
-    padding-bottom: 1px;
-    padding-left: 15px;
-    font-size: 15px;
-    font-family: 'Poppins',  'Actor', 'Adamina';
+    color: #FAFF00;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 14px;
+}
+
+.sectOne > .change {
+    margin-top: 50px;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    margin-left: 130px;
 }
 
 .sectOne > .change > #task {
+    font-size: 64px;
     color: #FAFF00;
-    font-family: 'Poppins', 'Actor', 'Adamina';
-    margin-left: 100px;
-    font-size: 68px;
 }
 
-.change > #roof {
-    color: white;
-    margin-left: 100px;
-    font-size: 35px;
-    font-family: 'Poppins', 'Actor', 'Adamina';
-    padding-bottom: 270px;
-}
-
-.sectTwo {
-    margin-top: 50px;
-    display: flex;
+.sectOne > .change > #roof {
+    color: lightgray;
+    font-size: 34px;
 }
 
 .sectTwo > .cut > img {
     width: 45%;
 }
 
-
 .sectTwo > .hustle {
-    margin-top: 200px;
-    margin-right: 10px;
-    margin-left: -660px;
-    font-family: 'Poppins', 'Actor', 'Adamina';
+    margin-top: -400px;
+    margin-bottom: 350px;
+    margin-left: 700px;
 }
 
 .hustle > h2 {
     font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    margin-bottom: -10px;
 }
 
 .current {
     color: gray;
-    margin-top: -15px;
-    margin-bottom: 40px;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    font-style:normal;
 }
 
 #three {
     background-color: black;
     color: #FAFF00;
-    padding-top: 10px;
+    margin-top: 20px;
+    padding-top: 8px;
     padding-right: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 0px 12px 0px 0px;
 }
 
 .top {
     background-color: lightgray;
-    margin-top: 10px;
-    padding-top: 120px;
-    padding-left: 100px;
+    margin-top: -120px;
+    padding: 130px;
 }
 
 .top > h2 {
-    padding-bottom: 150px;
+    margin-bottom: 170px;
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: lighter;
+    font-family: 'Poppins', 'Actor', 'Adamina;'
+}
+
+
+
+.top > .a-movers > #img-1 {
+    width: 30%;
+    margin-right: 30px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+}
+
+.top > .a-movers > #img-2 {
+    width: 30%;
+    margin-right: 30px;
+    margin-bottom: 150px;
+}
+.top > .a-movers > #img-3 {
+    width: 30%;
+    margin-bottom: 168px;
+}
+.top > .a-movers > #img-4 {
+    width: 30%;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.top > .a-movers > #img-5 {
+    width: 30%;
+    margin-right: 30px;
+}
+
+.top > .a-movers > #img-6 {
+    width: 30%;
 }
