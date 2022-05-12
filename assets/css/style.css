@@ -86,6 +86,17 @@ nav > .navbar > ul > li > a {
     font-weight: lighter;
     font-family: 'Poppins', 'Actor', 'Adamina';
     margin-bottom: -10px;
+    padding-top: 16px;
+}
+
+.hustle > #border-top {
+    content: "";
+    left: 0;
+    top: 0;
+    height: 2px;
+    width: 15%;
+    background: linear-gradient(to right, rgb(237,185,91) 0%, rgb(82,82,80) 100%);
+    margin-bottom: -20px;
 }
 
 .current {
@@ -98,60 +109,85 @@ nav > .navbar > ul > li > a {
     background-color: black;
     color: #FAFF00;
     margin-top: 20px;
-    padding-top: 8px;
-    padding-right: 20px;
-    padding-bottom: 8px;
-    padding-left: 20px;
+    padding-top: 14px;
+    padding-right: 22px;
+    padding-bottom: 14px;
+    padding-left: 22px;
     border: 1px solid black;
-    border-radius: 0px 12px 0px 0px;
+    border-radius: 0px 14px 0px 0px;
+}
+
+#three > .fa-solid {
+    margin-left: 10px;
 }
 
 .top {
     background-color: lightgray;
     margin-top: -120px;
-    padding: 130px;
+    padding: 150px;
+    padding-left: 160px;
+}
+
+.top > #border-top {
+    content: "";
+    left: 0;
+    top: 0;
+    height: 2px;
+    width: 8%;
+    background: linear-gradient(to right, rgb(237,185,91) 0%, rgb(82,82,80) 100%);
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .top > h2 {
-    margin-bottom: 170px;
+    margin-bottom: 150px;
     font-size: 30px;
     margin-left: 20px;
     font-weight: lighter;
     font-family: 'Poppins', 'Actor', 'Adamina;'
 }
 
-
-
-.top > .a-movers > #img-1 {
-    width: 30%;
-    margin-right: 30px;
-    margin-bottom: 150px;
-    margin-left: 20px;
-    border-bottom: 2px solid lightgray;
+.a-movers {
+    display: grid;
+    grid-gap: 0.9rem;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.top > .a-movers > #img-2 {
-    width: 30%;
-    margin-right: 30px;
-    margin-bottom: 150px;
-}
-.top > .a-movers > #img-3 {
-    width: 30%;
-    margin-bottom: 168px;
-}
-.top > .a-movers > #img-4 {
-    width: 30%;
-    margin-right: 30px;
-    margin-left: 20px;
+.a-movers img{
+    width: 20rem;
 }
 
-.top > .a-movers > #img-5 {
-    width: 30%;
-    margin-right: 30px;
+.a-movers > .movers-1 > h2 {
+    margin-top: -5px;
+    margin-right: 16px;
+    padding: 18px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
 }
 
-.top > .a-movers > #img-6 {
-    width: 30%;
+.a-movers > .movers-2 > h2 {
+    margin-top: -5px;
+    margin-right: 16px;
+    padding: 27px 18px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.a-movers > .movers-3 > h2 {
+    margin-top: -5px;
+    margin-right: 16px;
+    padding: 21px 18px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.table {
+    border: 1px solid lightgray;
+    background-color: white;
+    padding: 18px;
+    width: 322px;
+    margin-top: -21px;
+    border-radius: 0 0 20px 20px;
 }
 
 .tap {
